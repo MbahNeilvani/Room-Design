@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    Font-size: 12px;
+    font-family: Arial;
+}
+
+#showcase{display: flex;
+    height: 700px;
+    background-image: url(/img/desktop-image-hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+#showcase, ul{
+    display: flex;
+    justify-content: start;
+    padding: 25px 25px;
+    list-style: none;
+}
+
+#showcase a{
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+#main>.container>div{
+    display: flex;
+}

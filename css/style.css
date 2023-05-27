@@ -9,28 +9,107 @@ body{
     font-family: Arial;
 }
 
-#showcase{display: flex;
-    height: 700px;
+.nav{
+    display: flex;
     background-image: url(/img/desktop-image-hero-1.jpg);
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: cover;
+}
+
+.nav{
+    height: 300px;
 }
 
 #showcase, ul{
     display: flex;
     justify-content: start;
-    padding: 25px 25px;
     list-style: none;
+}
+
+.discover{
+    margin: 40px 0;
+    text-align: center;
 }
 
 #showcase a{
     display: flex;
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px 0;
     text-decoration: none;
 }
 
-#main>.container>div{
-    display: flex;
+#showcase h1{
+    font-size: 30px;
+    text-align: left;
+    padding: 19px 0 10px 39px;
+    font-weight: bolder;
+}
+
+.discover p{
+    line-height: 20px;
+    text-align: left;
+    padding: 10px 25px 0 39px;
+    font-size: 15px;
+    color: hsl(0, 0%, 63%);
+}
+
+.its_alone{
+    letter-spacing: 10px;
+    padding: 10px 0 20px 39px;
+}
+
+.its_alone a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 0 0 50px 0;
+}
+
+.arrow{
+    justify-content: stretch;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+#accross_the_globe{
+    margin-top: 70px;
+}
+
+.dark{
+    padding-bottom: 40px;
+}
+
+#accross_the_globe> div> div >div+ h3+ p+ div{
+    padding-top: 40px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 25px 0 39px;
+    letter-spacing: 4px;
+}
+
+#accross_the_globe p{
+    line-height: 20px;
+    text-align: left;
+    padding: 10px 25px 0 39px;
+    font-size: 15px;
+    color: hsl(0, 0%, 63%);
+}
+
+footer{
+    color: #fff;
+    background-color: lightgray;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
 }

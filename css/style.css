@@ -32,18 +32,19 @@ html{
     display: flex;
 }
 
-.header .logo{
+.header .logo_1{
     display: flex;
     font-size: 35px;
     font-weight: bold;
-    margin: 55px 80px 0 80px;
+    margin: 55px 80px 500px 80px;
     cursor: pointer;
     color: #fff;
 }
 
 .nav_bar{
     display: flex;
-    margin-top: 70px;
+    /* margin-top: 70px; */
+    margin: 70px 80px 500px 0;
 }
 
 .nav_bar a{

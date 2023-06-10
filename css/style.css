@@ -24,7 +24,7 @@ html{
     width: 60%;
     height: 600px;
     background-size: cover;
-    background-image: url(/img/desktop-image-hero-1.jpg);
+    background-image: url(../img/desktop-image-hero-1.jpg);
     background-repeat: no-repeat;
 }
 

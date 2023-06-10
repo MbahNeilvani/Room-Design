@@ -53,25 +53,25 @@ html{
     color: #fff;
 }
 
-.header .discover_container{
+.header .discover_container, .available_container, .Manufactured_container{
     position: absolute;
     right: 0;
     width: 40%;
     height: 600px;
 }
 
-.discover_box{
+.discover_box, .available_box, .Manufactured_box{
     width: 80%;
     margin: auto;
 }
 
-.discover h1{
+.discover h1, .available h1 , .Manufactured h1{
     font-size: 60px;
     text-align: left;
     font-weight: bolder;
 }
 
-.discover p{
+.discover p, .available p, .Manufactured p{
     font-size: 20px;
     line-height: 29px;
     padding-top: 20px;

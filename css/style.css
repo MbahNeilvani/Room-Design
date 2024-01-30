@@ -19,18 +19,71 @@ html{
 
 /* header design */
 
-.header{
+#nav_bar{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.nav{
+    display: flex;
+    padding: 30px;
+}
+
+.logo_1{
+    /* color: hsl(0, 0%, 100%); */
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.list{
+    display: flex;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+.list a {
+    font-size: 23px;
+    padding-left: 20px;
+    color: hsl(0, 0%, 63%);
+}
+
+.slide_1{
+    display: flex;
+}
+
+.slide_1 > div{
+    /* margin: 50px; */
+}
+
+/* #discover .para_1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+} */
+
+
+
+
+
+
+
+
+
+
+/* .header{
     display: flex;
     width: 60%;
-    height: 600px;
+    height: 600px; 
     background-size: cover;
     background-image: url(../img/desktop-image-hero-1.jpg);
     background-repeat: no-repeat;
 }
 
-.header >div{
+/* .header >div{
     display: flex;
-}
+} */
 
 .header .logo_1{
     display: flex;
@@ -50,7 +103,12 @@ html{
 .nav_bar a{
     margin-right: 30px;
     font-size: 20px;
-    color: #fff;
+    
+}
+
+.sub_div{
+    display: flex;
+    flex-direction: row;
 }
 
 .header .discover_container, .available_container, .Manufactured_container{
@@ -90,4 +148,4 @@ span {
     display: inline;
     font-size: 50px;
     color: #000;
-}
+} /*

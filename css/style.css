@@ -12,6 +12,10 @@
     text-decoration: none;
 }
 
+body{
+    position: relative;
+}
+
 html{
     font-size: 30px;
     overflow: hidden;
@@ -23,6 +27,8 @@ html{
     display: flex;
     margin-top: 30px;
     padding-left: 50px;
+    position: fixed;
+    top: 0;
 }
 
 .nav{
@@ -51,17 +57,35 @@ html{
 
 .slide_1{
     display: flex;
+    height: 568px;
 }
 
-.slide_1 > div{
-    /* margin: 50px; */
+.slide_1 .img{
+    border: 1px solid red;
+    width: 60%;
 }
 
-/* #discover .para_1{
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+#discover .para_1{
     display: flex;
     flex-direction: column;
     padding: 50px;
-} */
+    width: 40%;
+    border: 1px solid blue;
+    position: relative;
+}
+
+.para_1 .grp-btn{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: black;
+}
 
 
 
@@ -85,7 +109,7 @@ html{
     display: flex;
 } */
 
-.header .logo_1{
+/* .header .logo_1{
     display: flex;
     font-size: 35px;
     font-weight: bold;
@@ -96,7 +120,7 @@ html{
 
 .nav_bar{
     display: flex;
-    /* margin-top: 70px; */
+    /* margin-top: 70px; 
     margin: 70px 80px 500px 0;
 }
 
@@ -148,4 +172,4 @@ span {
     display: inline;
     font-size: 50px;
     color: #000;
-} /*
+} 

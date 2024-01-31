@@ -37,7 +37,7 @@ html{
 }
 
 .logo_1{
-    /* color: hsl(0, 0%, 100%); */
+    color: hsl(0, 0%, 100%);
     font-size: 40px;
     font-weight: bold;
 }
@@ -50,9 +50,10 @@ html{
 }
 
 .list a {
+    font-weight: bold;
     font-size: 23px;
     padding-left: 20px;
-    color: hsl(0, 0%, 63%);
+    color: hsl(0, 0%, 100%);
 }
 
 .slide_1{
@@ -74,9 +75,27 @@ html{
     display: flex;
     flex-direction: column;
     padding: 50px;
+    padding-top: 70px;
     width: 40%;
     border: 1px solid blue;
     position: relative;
+}
+
+.para_1 h1{
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+    padding-inline: 38px;
+    justify-content: center;
+}
+
+.para_1 p{
+    color: hsl(0, 0%, 63%);
+    font-size: 20px;
+    padding-inline: 38px;
+    line-height: 30px;
+    padding-top: 20px;
+    font-weight: bold;
 }
 
 .para_1 .grp-btn{
@@ -87,6 +106,11 @@ html{
     background-color: black;
 }
 
+.span {
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 18px;
+}
 
 
 
@@ -159,13 +183,6 @@ html{
     padding-top: 20px;
     padding-bottom: 25px;
     color: hsl(0, 0%, 63%);
-}
-
-span {
-    display: inline;
-    font-size: 25px;
-    font-weight: bolder;
-    letter-spacing: 20px;
 }
 
 .arrow{

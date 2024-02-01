@@ -112,9 +112,32 @@ html{
     letter-spacing: 18px;
 }
 
+.about_our{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid black;
+}
 
+.about_our h5{
+    display: flex;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-inline: 70px
+}
 
-
+.about_our p{
+    display: flex;
+    font-size: 20px;
+    color: hsl(0, 0%, 63%);
+    line-height: 27px;
+    padding-inline: 70px;
+    padding-top: 15px;
+}
 
 
 

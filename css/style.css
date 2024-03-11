@@ -99,11 +99,18 @@ html{
 }
 
 .para_1 .grp-btn{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
     position: absolute;
     left: 0;
     bottom: 0;
     padding: 10px;
     background-color: black;
+}
+
+.grp-btn i{
+    color: hsl(0, 0%, 63%);
 }
 
 .span {
@@ -137,4 +144,14 @@ html{
     line-height: 27px;
     padding-inline: 70px;
     padding-top: 15px;
+}
+
+/* Active state */
+
+.grp-btn:hover{
+    background-color:  hsl(0, 0%, 27%);
+}
+
+@media (max-width:375px) {
+    
 }

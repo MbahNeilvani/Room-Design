@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 /* general style */
 *{
@@ -12,28 +12,23 @@
     text-decoration: none;
 }
 
-body{
-    position: relative;
-}
-
 html{
-    font-size: 30px;
-    overflow: hidden;
+    position: relative;
 }
 
 /* header design */
 
 #nav_bar{
     display: flex;
-    margin-top: 30px;
     padding-left: 50px;
-    position: fixed;
-    top: 0;
+    position: relative;
 }
 
 .nav{
     display: flex;
     padding: 30px;
+    position: absolute;
+    z-index: 1;
 }
 
 .logo_1{
@@ -50,15 +45,16 @@ html{
 }
 
 .list a {
-    font-weight: bold;
-    font-size: 23px;
+    font-size: 20px;
     padding-left: 20px;
     color: hsl(0, 0%, 100%);
 }
 
-.slide_1{
-    display: flex;
-    height: 568px;
+/* main body */
+
+#discover{
+    position: relative;
+    height: 450px;
 }
 
 .slide_1 .img{
@@ -72,79 +68,90 @@ html{
 
 #discover .para_1{
     display: flex;
+    margin: 0 auto;
+    width: 30%;
     flex-direction: column;
-    padding: 50px;
     padding-top: 70px;
-    width: 40%;
     position: relative;
 }
 
 .para_1 h1{
     display: flex;
-    font-weight: bold;
-    font-size: 50px;
-    padding-inline: 38px;
+    font-size: 34px;
     justify-content: center;
 }
 
 .para_1 p{
     color: hsl(0, 0%, 63%);
-    font-size: 20px;
-    padding-inline: 38px;
-    line-height: 30px;
-    padding-top: 20px;
-    font-weight: bold;
-}
-
-.para_1 .grp-btn{
-    display: flex;
-    width: 15%;
-    justify-content: space-between;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: black;
-}
-
-.grp-btn i{
-    padding: 15px;
-    color: hsl(0, 0%, 63%);
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 16px;
 }
 
 .span {
     font-size: 25px;
     font-weight: bolder;
-    letter-spacing: 18px;
+    letter-spacing: 7px;
 }
+
+.span p{
+    font-size: 20px;
+    color: black;
+}
+
+.grp-btn{
+    display: flex;
+    position: absolute;
+    left: 809px;
+    bottom: .5px;
+    background-color: black;
+}
+
+.grp-btn i{
+    padding: 18px 33px;
+    color: hsl(0, 0%, 63%);
+}
+
+#about .img_1{
+    margin: 0;
+    width: 130%;
+    background: url('../img/image-about-dark.jpg');
+
+}
+
+#about .img_2{
+    margin: 0;
+    width: 130%;
+    background: url('../img/image-about-light.jpg');
+}
+
 
 .about_our{
     display: flex;
-    margin: 0px;
-    padding: 0px;
     justify-content: space-between;
     flex-direction: row;
 }
 
 .about_our h5{
     display: flex;
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 20px;
+    padding-inline: 40px;
     font-weight: bold;
-    letter-spacing: 3px;
-    padding-inline: 70px
+    
 }
 
 .about_our p{
     display: flex;
-    font-size: 20px;
+    font-size: 16px;
     color: hsl(0, 0%, 63%);
     line-height: 27px;
-    padding-inline: 70px;
+    padding-inline: 40px;
     padding-top: 15px;
-}
+} 
 
 /* Active state */
-
+ 
 #left:hover, #right:hover{
     background-color:  hsl(0, 0%, 27%);
     cursor: pointer;

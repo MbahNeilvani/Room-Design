@@ -12,151 +12,37 @@
     text-decoration: none;
 }
 
-html{
+body{
     position: relative;
 }
 
-/* header design */
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
 
+/* navbar design */
 #nav_bar{
     display: flex;
-    padding-left: 50px;
-    position: relative;
+    margin: 30px  0 0 60px;
+    padding: 0;
+    position: absolute;
 }
+
 
 .nav{
     display: flex;
-    padding: 30px;
-    position: absolute;
-    z-index: 1;
 }
 
 .logo_1{
-    color: hsl(0, 0%, 100%);
-    font-size: 40px;
-    font-weight: bold;
+    padding-right: 50px;
+    font-size: 30px;
 }
 
-.list{
-    display: flex;
-    margin: 0;
-    padding-top: 10px;
-    padding-left: 60px;
-}
-
-.list a {
-    font-size: 20px;
-    padding-left: 20px;
-    color: hsl(0, 0%, 100%);
-}
-
-/* main body */
-
-#discover{
-    position: relative;
-    height: 450px;
-}
-
-.slide_1 .img{
-    width: 60%;
-}
-
-.img img{
-    width: 100%;
-    height: 100%;
-}
-
-#discover .para_1{
-    display: flex;
-    margin: 0 auto;
-    width: 30%;
-    flex-direction: column;
-    padding-top: 70px;
-    position: relative;
-}
-
-.para_1 h1{
-    display: flex;
-    font-size: 34px;
-    justify-content: center;
-}
-
-.para_1 p{
-    color: hsl(0, 0%, 63%);
+.list a{
     font-size: 18px;
-    line-height: 25px;
-    padding-top: 16px;
 }
 
-.span {
-    font-size: 25px;
-    font-weight: bolder;
-    letter-spacing: 7px;
-}
-
-.span p{
-    font-size: 20px;
-    color: black;
-}
-
-.grp-btn{
-    display: flex;
-    position: absolute;
-    left: 809px;
-    bottom: .5px;
-    background-color: black;
-}
-
-.grp-btn i{
-    padding: 18px 33px;
-    color: hsl(0, 0%, 63%);
-}
-
-#about .img_1{
-    margin: 0;
-    width: 130%;
-    background: url('../img/image-about-dark.jpg');
-
-}
-
-#about .img_2{
-    margin: 0;
-    width: 130%;
-    background: url('../img/image-about-light.jpg');
-}
-
-
-.about_our{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.about_our h5{
-    display: flex;
-    padding-top: 30px;
-    font-size: 20px;
-    padding-inline: 40px;
-    font-weight: bold;
-    
-}
-
-.about_our p{
-    display: flex;
-    font-size: 16px;
-    color: hsl(0, 0%, 63%);
-    line-height: 27px;
-    padding-inline: 40px;
-    padding-top: 15px;
-} 
-
-/* Active state */
- 
-#left:hover, #right:hover{
-    background-color:  hsl(0, 0%, 27%);
-    cursor: pointer;
-}
-
-@media (max-width:375px) {
-    
+.list div{
+    padding-top: 10px;
 }

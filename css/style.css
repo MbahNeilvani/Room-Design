@@ -46,3 +46,44 @@ a{
 .list div{
     padding-top: 10px;
 }
+
+.list a{
+    padding-right: 20px;
+}
+
+/* main body */
+
+#discover{
+    margin: 0;
+    padding: 0;
+}
+
+.slide_1{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.para_1{
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 30%;
+}
+
+.para_1 > h1{
+    font-size: 35px;
+}
+
+.para_1 > h1 + p{
+    padding-top: 30px;
+    line-height: 23px;
+    color: hsl(0, 0%, 63%);
+}
+
+.span{
+    margin-top: 35px;
+}
+
+.span > p{
+    letter-spacing: 10px;
+}

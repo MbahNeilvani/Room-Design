@@ -27,6 +27,7 @@ a{
     margin: 30px  0 0 60px;
     padding: 0;
     position: absolute;
+    background-color: blue;
 }
 
 
@@ -56,6 +57,9 @@ a{
 #discover{
     margin: 0;
     padding: 0;
+    position: relative;
+    height: 402px;
+    border: blue solid 1px;
 }
 
 .slide_1{
@@ -64,14 +68,19 @@ a{
     margin: 0;
 }
 
-.para_1{
-    margin: 0 auto;
-    margin-top: 90px;
-    width: 30%;
+.img{
+    background: url(../img/desktop-image-hero-1.jpg);
+    background-size: 808px 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 402px;
+    border: solid 1px blue;
+    padding: 0 600px 0 0;
 }
 
 .para_1 > h1{
-    font-size: 35px;
+    /* font-size: 35px; */
+    width: 50%;
 }
 
 .para_1 > h1 + p{
@@ -85,5 +94,31 @@ a{
 }
 
 .span > p{
+    color: hsl(0, 0%, 63%);
     letter-spacing: 10px;
+}
+
+#grp-btn{
+    display: flex;
+    position: absolute;
+    bottom: .5px;
+    left: 810px;
+}
+
+.left, .right{
+    font-size: 30px;
+    color: hsl(0, 0%, 63%);
+    background-color: hsl(0, 0%, 0%);
+    padding: 15px 27px;
+}
+
+/* The about section */
+
+.about_our{
+    display: flex;
+}
+
+.img_1{
+    padding: 120px 200px;
+    background-image: url(../img/image-about-dark.jpg);
 }

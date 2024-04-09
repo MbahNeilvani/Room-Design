@@ -17,6 +17,7 @@ body{
 }
 
 a{
+    cursor: unset;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
@@ -129,5 +130,30 @@ a{
     background-image: url(../img/image-about-light.jpg);
 }
 
+.mid_box h5{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
 
+.mid_box p{
+    padding: 0 40px;
+    line-height: 22px;
+}
 
+/* Active */
+
+.list a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    cursor: pointer;
+}
+
+.left:hover, .right:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 27%);
+    color: hsl(0, 0%, 63%);
+}

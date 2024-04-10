@@ -1,159 +1,216 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
-/* general style */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
+
+
+/* Under a screen size of 375px */
+
+@media only screen and (max-width:375px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        scroll-behavior: smooth;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+
+    .nav > div{
+        display: flex;
+        margin-top: 50px;
+        padding-left: 50px;
+        position: absolute;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .img{
+        height: 300px;
+        background: url(../img/mobile-image-hero-1.jpg);
+        background-size: contain;
+        border: 1px solid blue;
+    }
+
+    
 }
 
-body{
-    position: relative;
+@media only screen and  (min-width:376px) {
+    /* general style */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        scroll-behavior: smooth;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+
+    body{
+        position: relative;
+    }
+
+    a{
+        cursor: unset;
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+    }
+
+    /* navbar design */
+
+    #nav_bar{
+        display: flex;
+        margin: 30px  0 0 60px;
+        padding: 0;
+        position: absolute;
+        z-index: 1;
+    }
+
+
+    .nav{
+        display: flex;
+    }
+
+    .logo_1{
+        display: none;
+        padding-right: 50px;
+        font-size: 30px;
+    }
+
+    .list a{
+        font-size: 18px;
+    }
+
+    .list div{
+        padding-top: 10px;
+    }
+
+    .list a{
+        padding-right: 20px;
+    }
+
+    /* main body */
+
+    #discover{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: 402px;
+    }
+
+    .slide_1{
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    #burger{
+        display: none;
+    }
+
+    .img{
+        background: url(../img/desktop-image-hero-1.jpg);
+        background-size: 808px 402px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 402px;
+        padding: 0 600px 0 0;
+    }
+
+    .para_1 > h1{
+        margin-top: 30px;
+        font-size: 30px;
+        padding: 0 50px;
+    }
+
+    .para_1 > h1 + p{
+        padding: 15px 30px 0 50px;
+        line-height: 23px;
+        color: hsl(0, 0%, 63%);
+    }
+
+    .span{
+        display: flex;
+        padding-left: 50px;
+        margin-top: 30px;
+    }
+
+    .span > p{
+        padding-right: 20px;
+        color: black;
+        letter-spacing: 10px;
+    }
+
+    #grp-btn{
+        display: flex;
+        position: absolute;
+        bottom: .5px;
+        left: 804px;
+    }
+
+    .left, .right{
+        font-size: 30px;
+        color: hsl(0, 0%, 63%);
+        background-color: hsl(0, 0%, 0%);
+        padding: 15px 22px;
+    }
+
+    /* The about section */
+
+    .about_our{
+        display: flex;
+    }
+
+    .img_1{
+        padding: 120px 210px;
+        background-image: url(../img/image-about-dark.jpg);
+    }
+
+    .img_2{
+        padding: 120px 210px;
+        background-image: url(../img/image-about-light.jpg);
+    }
+
+    .mid_box h5{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding-left: 40px;
+    }
+
+    .mid_box p{
+        padding: 0 40px;
+        line-height: 22px;
+    }
+
+    /* Active */
+
+    .list a:hover{
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 10px;
+        cursor: pointer;
+    }
+
+    .left:hover, .right:hover {
+        cursor: pointer;
+        background-color: hsl(0, 0%, 27%);
+        color: hsl(0, 0%, 63%);
+    }
+
+    .span:hover{
+        cursor: pointer;
+    }
+
+    .span p:hover{
+        color: hsl(0, 0%, 63%);
+    }
 }
 
-a{
-    cursor: unset;
-    text-decoration: none;
-    color: hsl(0, 0%, 100%);
-}
 
-/* navbar design */
-#nav_bar{
-    display: flex;
-    margin: 30px  0 0 60px;
-    padding: 0;
-    position: absolute;
-    z-index: 1;
-}
-
-
-.nav{
-    display: flex;
-}
-
-.logo_1{
-    padding-right: 50px;
-    font-size: 30px;
-}
-
-.list a{
-    font-size: 18px;
-}
-
-.list div{
-    padding-top: 10px;
-}
-
-.list a{
-    padding-right: 20px;
-}
-
-/* main body */
-
-#discover{
-    /* border: 1px solid red; */
-    margin: 0;
-    padding: 0;
-    position: relative;
-    height: 402px;
-}
-
-.slide_1{
-    display: flex;
-    padding: 0;
-    margin: 0;
-}
-
-.img{
-    background: url(../img/desktop-image-hero-1.jpg);
-    background-size: 808px 402px;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 402px;
-    padding: 0 600px 0 0;
-}
-
-.para_1 > h1{
-    margin-top: 30px;
-    font-size: 30px;
-    padding: 0 50px;
-}
-
-.para_1 > h1 + p{
-    padding: 15px 30px 0 50px;
-    line-height: 23px;
-    color: hsl(0, 0%, 63%);
-}
-
-.span{
-    padding-left: 50px;
-    margin-top: 30px;
-}
-
-.span > p{
-    color: hsl(0, 0%, 63%);
-    letter-spacing: 10px;
-}
-
-#grp-btn{
-    display: flex;
-    position: absolute;
-    bottom: .5px;
-    left: 804px;
-}
-
-.left, .right{
-    font-size: 30px;
-    color: hsl(0, 0%, 63%);
-    background-color: hsl(0, 0%, 0%);
-    padding: 15px 22px;
-}
-
-/* The about section */
-
-.about_our{
-    display: flex;
-}
-
-.img_1{
-    padding: 120px 210px;
-    background-image: url(../img/image-about-dark.jpg);
-}
-
-.img_2{
-    padding: 120px 210px;
-    background-image: url(../img/image-about-light.jpg);
-}
-
-.mid_box h5{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    padding-left: 40px;
-}
-
-.mid_box p{
-    padding: 0 40px;
-    line-height: 22px;
-}
-
-/* Active */
-
-.list a:hover{
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 10px;
-    cursor: pointer;
-}
-
-.left:hover, .right:hover {
-    cursor: pointer;
-    background-color: hsl(0, 0%, 27%);
-    color: hsl(0, 0%, 63%);
-}

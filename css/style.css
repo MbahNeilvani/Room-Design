@@ -88,25 +88,26 @@
     }
 
     .img_1{
-        padding: 120px 210px;
+        padding: 120px 140px;
         background-image: url(../img/image-about-dark.jpg);
     }
 
     .img_2{
-        padding: 120px 210px;
+        padding: 120px 140px;
         background-image: url(../img/image-about-light.jpg);
     }
 
     .mid_box h5{
-        margin-top: 30px;
+        margin-top: 50px;
         margin-bottom: 10px;
-        font-size: 18px;
-        letter-spacing: 2px;
-        padding-left: 40px;
+        font-size: 16px;
+        letter-spacing: 4px;
+        padding-left: 30px;
     }
 
     .mid_box p{
-        padding: 0 40px;
+        color: hsl(0, 0%, 63%);
+        padding: 0 20px 40px 30px;
         line-height: 22px;
     }
 }

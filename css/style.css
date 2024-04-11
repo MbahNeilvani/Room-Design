@@ -43,7 +43,6 @@
         background: url(../img/mobile-image-hero-1.jpg);
         background-size: 380px 400px;
         background-repeat: no-repeat;
-        border: 1px solid blue;
     }
 
     #grp-btn{
@@ -59,6 +58,56 @@
         color: hsl(0, 0%, 63%);
         background-color: hsl(0, 0%, 0%);
         padding: 8px 15px;
+    }
+
+    .para_1 h1{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 0 30px;
+        font-size: 30px;
+    }
+
+    .para_1 p{
+        padding: 0 30px;
+        line-height: 25px;
+        color: hsl(0, 0%, 63%);
+    }
+
+    .span{
+        display: flex;
+        margin: 23px 0 40px 0;
+    }
+
+    .span p{
+        letter-spacing: 10px;
+        color: black;
+    }
+
+    .span img{
+        margin-top: 5px;
+    }
+
+    .img_1{
+        padding: 120px 210px;
+        background-image: url(../img/image-about-dark.jpg);
+    }
+
+    .img_2{
+        padding: 120px 210px;
+        background-image: url(../img/image-about-light.jpg);
+    }
+
+    .mid_box h5{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding-left: 40px;
+    }
+
+    .mid_box p{
+        padding: 0 40px;
+        line-height: 22px;
     }
 }
 
@@ -164,7 +213,7 @@
         margin-top: 30px;
     }
 
-    .span > p{
+    .span p{
         padding-right: 20px;
         color: black;
         letter-spacing: 10px;

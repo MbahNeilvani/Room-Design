@@ -19,8 +19,19 @@
     .nav > div{
         display: flex;
         margin-top: 50px;
-        padding-left: 50px;
+        padding-left: 30px;
         position: absolute;
+    }
+
+    .small_size img{
+        width: 105%;
+        padding-top: 9px;
+        padding-right: 100px;
+    }
+
+    .logo_1{
+        font-size: 30px;
+        color: white;
     }
 
     .list{
@@ -28,13 +39,27 @@
     }
 
     .img{
-        height: 300px;
+        height: 400px;
         background: url(../img/mobile-image-hero-1.jpg);
-        background-size: contain;
+        background-size: 380px 400px;
+        background-repeat: no-repeat;
         border: 1px solid blue;
     }
 
-    
+    #grp-btn{
+        display: flex;
+        position: absolute;
+        bottom: 155px;
+        left: 276px;
+        /* border: blue 1px solid; */
+    }
+
+    .left, .right{
+        font-size: 30px;
+        color: hsl(0, 0%, 63%);
+        background-color: hsl(0, 0%, 0%);
+        padding: 8px 15px;
+    }
 }
 
 @media only screen and  (min-width:376px) {
@@ -77,7 +102,6 @@
     }
 
     .logo_1{
-        display: none;
         padding-right: 50px;
         font-size: 30px;
     }

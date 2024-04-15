@@ -34,6 +34,10 @@
         color: white;
     }
 
+    #burger_close{
+        display: none;
+    }
+
     .list{
         display: none;
     }
@@ -149,6 +153,10 @@
 
     .nav{
         display: flex;
+    }
+
+    #burger_close{
+        display: none;
     }
 
     .logo_1{

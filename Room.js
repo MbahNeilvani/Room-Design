@@ -1,67 +1,42 @@
-document.getElementById('left').addEventListener('click', changeImage)
+const burgerOpen = document.getElementById('burger')
+const burgerclose = document.getElementById('burger_close')
 
-const imgOne = document.getElementsByClassName('img').item
+document.getElementById('burger').addEventListener('click', change)
 
-function changeImage() {
-    let imgSrc = imgOne 
-        title= 'We are available all across the globe',
-        text= 'With stores all over the world, \it\'s easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? \Don\'t hesitate to contact us today.'
+function change(){
+    burgerOpen.classList.add('hiddin')
+    burgerclose.classList.toggle('hiddin')
+    // console.log('working')
 }
 
+change()
+
+// document.getElementById('burger').addEventListener('click', changeburger)
+// function changeburger(){
+//     console.log('working')
+// }
+
+// changeburger()
 
 
+// document.getElementById('left').addEventListener('click', changeImage)
+
+// const imgOne = document.getElementsByClassName('img').item
+
+// function changeImage() {
+//     let imgSrc = imgOne 
+//         title= 'We are available all across the globe',
+//         text= 'With stores all over the world, \it\'s easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? \Don\'t hesitate to contact us today.'
+// }
 
 
+// document.getElementById('left').addEventListener('click', left)
 
-
-
-
-
-
-
-
-
-
-document.getElementById('left').addEventListener('click', left)
-
-function left(){
+// function left(){
     
 
     
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// }
 
 // const bannerInfo=[{
 //     imgSrc:'./img1',

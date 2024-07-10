@@ -1,15 +1,15 @@
-const burgerOpen = document.getElementById('burger')
-const burgerclose = document.getElementById('burger_close')
+// const burgerOpen = document.getElementById('burger')
+// const burgerclose = document.getElementById('burger_close')
 
-document.getElementById('burger').addEventListener('click', change)
+// document.getElementById('burger').addEventListener('click', change)
 
-function change(){
-    burgerOpen.classList.add('hiddin')
-    burgerclose.classList.toggle('hiddin')
-    // console.log('working')
-}
+// function change(){
+//     burgerOpen.classList.add('hiddin')
+//     burgerclose.classList.toggle('hiddin')
+//     // console.log('working')
+// }
 
-change()
+// change()
 
 // document.getElementById('burger').addEventListener('click', changeburger)
 // function changeburger(){

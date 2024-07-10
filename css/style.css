@@ -5,6 +5,7 @@
 /* Under a screen size of 375px */
 
 @media only screen and (max-width:375px) {
+    
     *{
         margin: 0;
         padding: 0;
@@ -142,7 +143,7 @@
 
     /* navbar design */
 
-    #nav_bar{
+     #nav_bar{
         display: flex;
         margin: 30px  0 0 60px;
         padding: 0;
@@ -165,7 +166,7 @@
     }
 
     .list a{
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .list div{
@@ -182,7 +183,8 @@
         margin: 0;
         padding: 0;
         position: relative;
-        height: 402px;
+        height: 600px;
+        border: blue solid 1px;
     }
 
     .slide_1{
@@ -197,28 +199,33 @@
 
     .img{
         background: url(../img/desktop-image-hero-1.jpg);
-        background-size: 808px 402px;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
-        width: 100%;
-        height: 402px;
-        padding: 0 600px 0 0;
+        width: 90%;
+        height: 600px;
+    }
+
+    .para_1{
+        width: 60%;
     }
 
     .para_1 > h1{
-        margin-top: 30px;
-        font-size: 30px;
-        padding: 0 50px;
+        margin-top:70px;
+        font-size: 60px;
+        font-weight: bold;
+        padding: 0 90px;
     }
 
     .para_1 > h1 + p{
-        padding: 15px 30px 0 50px;
-        line-height: 23px;
+        padding: 50px 110px 25px 90px;
+        font-size: 20px;
+        line-height: 32px;
         color: hsl(0, 0%, 63%);
     }
 
     .span{
         display: flex;
-        padding-left: 50px;
+        padding-left: 90px;
         margin-top: 30px;
     }
 
@@ -244,7 +251,7 @@
 
     /* The about section */
 
-    .about_our{
+    /* .about_our{
         display: flex;
     }
 
@@ -269,11 +276,11 @@
     .mid_box p{
         padding: 0 40px;
         line-height: 22px;
-    }
+    } */
 
     /* Active */
 
-    .list a:hover{
+    /* .list a:hover{
         text-decoration: underline;
         text-decoration-thickness: 3px;
         text-underline-offset: 10px;
@@ -292,7 +299,7 @@
 
     .span p:hover{
         color: hsl(0, 0%, 63%);
-    }
+    } */
 }
 
 

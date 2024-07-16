@@ -55,7 +55,6 @@
         position: absolute;
         bottom: 155px;
         left: 276px;
-        /* border: blue 1px solid; */
     }
 
     .left, .right{
@@ -161,8 +160,8 @@
     }
 
     .logo_1{
-        padding-right: 50px;
-        font-size: 30px;
+        padding-right: 70px;
+        font-size: 40px;
     }
 
     .list a{
@@ -240,14 +239,14 @@
         display: flex;
         position: absolute;
         bottom: 1px;
-        left: 1225px;
+        left: 1230px;
     }
 
     .left, .right{
         font-size: 30px;
         color: hsl(0, 0%, 63%);
         background-color: hsl(0, 0%, 0%);
-        padding: 15px 22px;
+        padding: 20px 41px;
     }
 
     /* The about section */

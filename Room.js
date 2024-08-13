@@ -1,3 +1,71 @@
+document.getElementById('grp-btn').addEventListener('click', slide)
+
+const existing = document.getElementsByClassName('img')
+let new = src()
+
+
+function slide(){
+    // alert('Working')
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const burgerOpen = document.getElementById('burger')
 // const burgerclose = document.getElementById('burger_close')
 

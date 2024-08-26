@@ -1,8 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
-
-
 /* Under a screen size of 375px */
+
+#img{
+    display: none;
+}
 
 @media only screen and (max-width:375px) {
     
@@ -45,7 +47,7 @@
 
     .img{
         height: 400px;
-        background: url(../img/mobile-image-hero-1.jpg);
+        /* background: url(../img/mobile-image-hero-1.jpg); */
         background-size: 380px 400px;
         background-repeat: no-repeat;
     }
@@ -196,7 +198,7 @@
     }
 
     .img{
-        background: url(../img/desktop-image-hero-1.jpg);
+        /* background: url(../img/desktop-image-hero-1.jpg); */
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 90%;

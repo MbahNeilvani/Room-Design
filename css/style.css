@@ -2,7 +2,7 @@
 
 /* Under a screen size of 375px */
 
-#img{
+.hidden{
     display: none;
 }
 
